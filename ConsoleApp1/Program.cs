@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace экзтарасова
+namespace Exam
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace экзтарасова
 
             Debug.Listeners.Add(new TextWriterTraceListener(File.CreateText("1.txt")));
             Debug.AutoFlush = true;
-            Exam Cpit = new Exam();
+            Crit Cpit = new Crit();
             Cpit.zzz();
 
         }

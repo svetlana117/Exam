@@ -1,16 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace экзтарасова
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //test
+
+            Debug.Listeners.Add(new TextWriterTraceListener(File.CreateText("1.txt")));
+            Debug.AutoFlush = true;
+            Exam Cpit = new Exam();
+            Cpit.zzz();
+
         }
     }
 }

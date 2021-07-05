@@ -8,7 +8,7 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-        Exam xm = new Exam();
+        Crit xm = new Crit();
         [TestMethod]
         public void TestMethod1()
         {

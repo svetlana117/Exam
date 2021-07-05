@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam", "ConsoleApp1\Exam.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{0D63A3B9-7DF0-44DF-9430-F162E39489DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Файл", "Файл", "{EFA33F5E-127C-455D-A04F-E1983C674C5D}"
+	ProjectSection(SolutionItems) = preProject
+		ConsoleApp1\bin\Debug\ввод.csv = ConsoleApp1\bin\Debug\ввод.csv
+		ConsoleApp1\bin\Debug\вывод.csv = ConsoleApp1\bin\Debug\вывод.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
